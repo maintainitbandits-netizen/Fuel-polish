@@ -280,3 +280,30 @@ section{padding:60px 0}
 .hero-badge-group{justify-content:center}
 .blog-content h1{font-size:1.5rem}
 }
+
+
+/* Before & After Gallery */
+.before-after-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.ba-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06);border:1px solid #e6e9f0;transition:.3s}
+.ba-card:hover{transform:translateY(-4px);box-shadow:0 12px 48px rgba(0,0,0,.18)}
+.ba-images{display:grid;grid-template-columns:1fr 2px 1fr;gap:0;align-items:stretch}
+.ba-side{padding:24px 16px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:160px}
+.ba-before{background:linear-gradient(180deg,#fef2f2,#fff)}
+.ba-after{background:linear-gradient(180deg,#f0fdf4,#fff)}
+.ba-divider{width:2px;background:linear-gradient(180deg,#e6e9f0,#F26419,#e6e9f0);margin:8px 0;border-radius:2px}
+.ba-label{font-weight:800;font-size:.7rem;text-transform:uppercase;letter-spacing:1px;padding:4px 12px;border-radius:4px;margin-bottom:12px}
+.ba-label-before{background:#fef2f2;color:#dc2626;border:1px solid #fecaca}
+.ba-label-after{background:#f0fdf4;color:#16a34a;border:1px solid #bbf7d0}
+.ba-icon{margin-bottom:8px}
+.ba-sub{font-size:.75rem;color:#8f96ab;font-weight:500}
+.ba-info{padding:14px 16px;border-top:1px solid #eee}
+.ba-info h4{font-size:.88rem;font-weight:700;color:#0C2340;margin-bottom:2px}
+.ba-info p{font-size:.78rem;color:#8f96ab}
+@media(max-width:992px){.before-after-grid{grid-template-columns:1fr}}
+@media(max-width:768px){.ba-side{min-height:130px;padding:16px 12px}}
+
+/* Reviews Widget */
+.reviews-badge{display:inline-flex;align-items:center;gap:12px;background:#fff;border:1px solid #e6e9f0;border-radius:12px;padding:12px 20px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.reviews-stars{color:#F5A623;font-size:1.1rem;letter-spacing:2px}
+.reviews-count{color:#8f96ab;font-size:.82rem}
+.reviews-count strong{color:#0C2340}
