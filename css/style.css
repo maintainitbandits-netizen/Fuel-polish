@@ -66,6 +66,9 @@ nav a:hover,nav a.active{color:#fff;background:rgba(255,255,255,.08)}
 .floating-phone{position:fixed;bottom:24px;right:24px;z-index:999;display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,#25D366,#128C7E);color:#fff;padding:12px 20px;border-radius:50px;font-weight:700;box-shadow:0 8px 32px rgba(37,211,102,.4);transition:.3s;font-size:.9rem;border:none;cursor:pointer;animation:float 3s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 .floating-phone:hover{transform:scale(1.05);box-shadow:0 12px 40px rgba(37,211,102,.5)}
+.floating-sms{position:fixed;bottom:90px;right:24px;z-index:999;display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,#0C2340,#1A3A5C);color:#fff;padding:12px 20px;border-radius:50px;font-weight:700;box-shadow:0 8px 32px rgba(12,35,64,.4);transition:.3s;font-size:.9rem;border:none;cursor:pointer;text-decoration:none}
+.floating-sms:hover{transform:scale(1.05);box-shadow:0 12px 40px rgba(12,35,64,.5)}
+.floating-sms i{font-size:1.3rem;color:#F26419}@media(max-width:768px){.floating-sms{width:54px;height:54px;border-radius:50%;justify-content:center;padding:0}.floating-sms span{display:none}}
 .floating-phone i{font-size:1.3rem}
 
 /* Sections */
